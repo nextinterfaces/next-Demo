@@ -2,7 +2,7 @@ class SlideController extends XController {
 
   SlideController() {
     setTitle("Slide Example");
-    
+
     /*** slides out by pop previous controller in parent ***/
     /*** getNavigationController().popController(true); ***/
   }

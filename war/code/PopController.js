@@ -2,10 +2,10 @@ class PopController extends XController {
 
   PopController() {
     setTitle("Pop Example");
-    
+
     /*** XController pop In ***/
     /*** this.popIn(); ***/
-    
+
     /*** XController pop Out ***/
     /*** this.popOut(); ***/
   }

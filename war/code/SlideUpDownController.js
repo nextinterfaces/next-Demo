@@ -6,7 +6,7 @@ SlideUpDownController extends XController {
 
     /*** When invoked via slideUpIn() then ***/
     /*** this.slideUpReverse(); ***/
-    
+
     /*** When instantiated with slideDownIn() then ***/
     /*** this.slideDownReverse(); ***/
   }

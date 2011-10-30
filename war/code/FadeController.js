@@ -2,10 +2,10 @@ class FadeController extends XController {
 
   FadeController() {
     setTitle("Fade Example");
-    
+
     /*** XController fades In ***/
     /*** this.fadeIn(); ***/
-    
+
     /*** XController fades Out ***/
     /*** this.fadeOut(); ***/
   }

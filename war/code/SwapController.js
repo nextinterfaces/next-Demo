@@ -2,8 +2,8 @@ SwapController extends XController {
 
   SwapController(IController invokerController) {
 
-    setTitle("Swap example");	
-	
+    setTitle("Swap example");
+
 	/*** reverse swap using ***/
 	/*** Command afterCommand = ...; ***/
 	/*** this.swapToReverse(invokerController, afterCommand); ***/

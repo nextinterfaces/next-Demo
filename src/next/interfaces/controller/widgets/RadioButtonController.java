@@ -1,12 +1,12 @@
 /*
  * Copyright 2011 Vancouver Ywebb Consulting Ltd
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not
  * use this file except in compliance with the License. You may obtain a copy of
  * the License at
- * 
+ *
  * http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
  * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
@@ -58,7 +58,7 @@ public class RadioButtonController extends GitXController {
 
 		radio0.setValue(true);
 		radioA.setValue(true);
-		
+
 		group1.addSelectionChangedHandler(new SelectionChangedHandler() {
 			public void onSelectionChanged(SelectionChangedEvent e) {
 				label1.setText("Favorite color: " + group1.getCheckedWidget().getName());
