@@ -1,12 +1,12 @@
 /*
  * Copyright 2011 Vancouver Ywebb Consulting Ltd
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not
  * use this file except in compliance with the License. You may obtain a copy of
  * the License at
- * 
+ *
  * http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
  * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
@@ -38,7 +38,7 @@ public class NavigationBarController extends GitXController {
 		VerticalPanel panel = new VerticalPanel();
 		panel.setWidth("100%");
 		panel.getElement().getStyle().setProperty("background", "#f8f8f8");
-		panel.getElement().getStyle().setProperty("padding", "40px 20px"); 
+		panel.getElement().getStyle().setProperty("padding", "40px 20px");
 
 		XNavigationBar bar1 = new XNavigationBar();
 		bar1.setTitle("Bar One");
@@ -46,7 +46,7 @@ public class NavigationBarController extends GitXController {
 		panel.add(bar1);
 
 		panel.add(new HTML("&nbsp;"));
-		
+
 		XNavigationBar bar2 = new XNavigationBar();
 		bar2.setLeftTitle("Back", Type.BACK_BUTTON);
 		bar2.getLeftButton().addClickHandler(new ClickHandler() {

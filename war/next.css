@@ -421,7 +421,7 @@ div.tableCell {
 }
 
 /*****************************
- * XButton Shadow 
+ * XButton Shadow
  *****************************/
 .xbutton.Shadow {
 	border: 1px solid #9f9f9f;
@@ -433,7 +433,7 @@ div.tableCell {
 	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, .3);
 	box-shadow: 0 1px 4px rgba(0, 0, 0, .3);
 	/* display: block;
-	position: relative; 
+	position: relative;
 	margin: .5em 5px;
 		padding: 0; */
 	overflow: hidden;
@@ -1045,7 +1045,7 @@ input::-webkit-outer-spin-button {
  */
 
 .codeDemo {
-	border: .3em solid #fff;	
+	border: .3em solid #fff;
 }
 .codeDemo pre {
 	text-align: left;
@@ -1093,7 +1093,7 @@ Android native check box and radio button are too small in WVGA resolution
 			to(#71A6F8));
 	-webkit-box-shadow:0 0 .1em #27519C;
 }
-	
+
 .WVGA .CheckBoxIndicator {
 	position: relative;
 	margin: 0 .4em 0 .4em;
@@ -1102,7 +1102,7 @@ Android native check box and radio button are too small in WVGA resolution
 .WVGA .CheckBoxIndicator > div:first-child {
 	width: .8em;
 	height: .8em;
-	padding: .1em;	
+	padding: .1em;
 	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#555), to(#777));
 	-webkit-background-clip: padding;
 	border: .1em solid #333;
@@ -1123,7 +1123,7 @@ Android native check box and radio button are too small in WVGA resolution
 	background: #00CC00;
 	border: .1em solid #111;
 }
-	
+
 .WVGA .selected .CheckBoxIndicator > div:nth-child(2) {
 	width: .2em;
 	height: .3em;
